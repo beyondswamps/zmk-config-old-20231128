@@ -91,6 +91,6 @@
             >;
 
             sensor-bindings = <&inc_dec_kp DEL BSPC &inc_dec_kp LA(DEL) LA(BSPC)>;
-        }
+        };
     };
 };
