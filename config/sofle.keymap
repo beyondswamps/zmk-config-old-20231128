@@ -83,11 +83,11 @@
 // |       |WIN(Z)|WIN(X)| WIN(C)| WIN(V)|      |      |     |      |      |      |       |      |       |       |
 //                |      |       |       |      |      |     |      |      |      |       |      |
             bindings = <
-&trans     &trans       &trans       &kp LG(LA(N3)) &kp LG(LA(N4)) &kp LG(LA(N5))               &trans    &trans    &trans    &trans     &trans    &trans
-&trans     &trans       &kp HOME     &kp UP         &kp END        &kp PG_UP                    &trans    &trans    &trans    &trans     &trans    &trans
-&trans     &trans       &kp LEFT     &kp DOWN       &kp RIGHT      &kp PG_DN                    &trans    &trans    &trans    &trans     &trans    &trans
-&trans     &kp LG(Z)    &kp LG(X)    &kp LG(C)      &kp LG(V)      &trans  &trans       &trans  &trans    &trans    &trans    &trans     &trans    &trans
-                        &trans       &trans         &trans         &to 0   &trans       &trans  &to 0     &trans    &trans    &trans
+&trans     &trans       &trans       &kp LG(LSHFT(N3)) &kp LG(LSHFT(N4)) &kp LG(LSHFT(N5))               &trans    &trans    &trans    &trans     &trans    &trans
+&trans     &trans       &kp HOME     &kp UP            &kp END           &kp PG_UP                    &trans    &trans    &trans    &trans     &trans    &trans
+&trans     &trans       &kp LEFT     &kp DOWN          &kp RIGHT         &kp PG_DN                    &trans    &trans    &trans    &trans     &trans    &trans
+&trans     &kp LG(Z)    &kp LG(X)    &kp LG(C)         &kp LG(V)         &trans  &trans       &trans  &trans    &trans    &trans    &trans     &trans    &trans
+                        &trans       &trans            &trans            &to 0   &trans       &trans  &to 0     &trans    &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp DEL BSPC &inc_dec_kp LA(DEL) LA(BSPC)>;
